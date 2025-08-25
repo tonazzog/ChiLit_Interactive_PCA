@@ -35,6 +35,7 @@ df_plot = pd.DataFrame({
 })
 
 app = dash.Dash(__name__)
+server = app.server
 
 app.layout = html.Div([
     html.H1("Interactive PCA Scatter Plot", style={'text-align': 'center'}),
